@@ -69,6 +69,7 @@ def openai_multi(sender_id,message,message_time):
             "content":m.message
         }
         messages.append(openai_message)
+    messages.reverse()
     msg = openai(messages)
     assistant_message_time = int(time.time())
     assistant_message = create_data(session,MessageHistory,open_id=open_id,role = 'assistant',message = msg,message_time = assistant_message_time)
