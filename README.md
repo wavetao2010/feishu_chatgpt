@@ -13,8 +13,7 @@
 3、拉取最新代码到本地，并进入对应目录。
 
   ```commandline
-  git clone https://github.com/larksuite/lark-samples.git
-  cd lark-samples/robot_quick_start/python
+  git clone https://github.com/wavetao2010/feishu_chatgpt.git
   ```
 
 4、修改环境值
